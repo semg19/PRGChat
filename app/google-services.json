@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894429645894",
+    "firebase_url": "https://prgchat-c62c7.firebaseio.com",
+    "project_id": "prgchat-c62c7",
+    "storage_bucket": "prgchat-c62c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894429645894:android:d261faeb16e532cc",
+        "android_client_info": {
+          "package_name": "com.sem.prgchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894429645894-6ph2sm344ghk3s53abl8nhik5mahhibn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sem.prgchat",
+            "certificate_hash": "f10c4ebeabb3f2040ac773bf9e18f43892811d26"
+          }
+        },
+        {
+          "client_id": "894429645894-oq34gad0uufddmtljgvtt5sa36cpe7p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsurdj5NwTpCR0FZ7EmmdcPeR1RN6jsqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894429645894-oq34gad0uufddmtljgvtt5sa36cpe7p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
