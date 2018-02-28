@@ -40,7 +40,9 @@ public class MainActivity extends AppCompatActivity {
     // Uitlog menu werkend maken.
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.menu_sign_out)
+        int id = item.getItemId();
+
+        if(id == R.id.menu_sign_out)
         {
             AuthUI.getInstance().signOut(this).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
@@ -50,7 +52,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-        return true;
+//        return true;
+
+        if (id == R.id.action_location)
+        {
+            Intent i = new Intent(this, MapsActivity.class);
+            startActivity(i);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     // Het menu weergeven.
