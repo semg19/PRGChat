@@ -6,6 +6,7 @@ import java.util.Date;
  * Created by Eigenaar on 8-2-2018.
  */
 
+// Bevat content van de chat message
 public class ChatMessage {
     private String messageText;
     private String messageUser;
